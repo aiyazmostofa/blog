@@ -14,7 +14,7 @@ export const getStaticPaths = (async ({paginate}) => {
 const {page} = Astro.props
 ---
 
-<BaseLayout>
+<BaseLayout title="AyazMost's Blog">
     <h2>Posts</h2>
     {
         page.data.map((entry) => {
