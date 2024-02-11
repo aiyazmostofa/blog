@@ -1,5 +1,5 @@
 * Blog
-My website.
+My blog.
 
 ** License
 [[file:LICENSE][GNU General Public License v3.0]]
