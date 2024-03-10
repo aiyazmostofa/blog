@@ -18,19 +18,20 @@ export const getStaticPaths = (async () => {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
+
 <BaseLayout title={entry.data.title}>
-<div></div>
-<h3>{entry.data.title}</h3>
-<p class="italic">{entry.data.category}</p>
-<p>{renderDate(entry.data.date)}</p>
-<div></div>
-<Content />
+    <div></div>
+    <h3>{entry.data.title}</h3>
+    <p class="italic">{entry.data.category}</p>
+    <p>{renderDate(entry.data.date)}</p>
+    <div></div>
+    <Content />
 </BaseLayout>
 
 <style>
     div {
         height: 1px;
-        background-color: #F5F5DC;
+        background-color: #ecf0c1;
         margin: 2em 0;
     }
 </style>
