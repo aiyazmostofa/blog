@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=JetBrains+Mono&display=swap');
 
 a {
-    color: #F5F5DC;
+    color: #e9e9f4;
 }
 
 body {
     font-family: 'IBM Plex Serif', serif;
-    color: #F5F5DC;
+    color: #e9e9f4;
     font-size: 1.15rem;
     line-height: 1.6;
 }
@@ -23,7 +23,7 @@ pre {
     font-size: 1.25rem;
     padding: 1rem;
     border-style: solid;
-    border-color: #F5F5DC;
+    border-color: #e9e9f4;
     border-width: 1px;
 }
 

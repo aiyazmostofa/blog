@@ -1,10 +1,11 @@
 import { defineConfig } from 'astro/config';
+import theme from './theme.json';
 
 // https://astro.build/config
 export default defineConfig({
     markdown: {
         shikiConfig: {
-            theme: 'vitesse-dark'
+            theme: theme,
         },
         remarkPlugins: [
             'remark-math',
